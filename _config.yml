@@ -35,5 +35,7 @@ plugins:
   - jekyll-seo-tag
 
 collections:
+  about:
+    output: true
   boardmembers:
     output: true

@@ -1,0 +1,47 @@
+@import 'layout';
+
+/* Dropdown Button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  padding: 4px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.dropdown-content a {
+  margin: 4px;
+}
+
+.dropdown-content a {
+  @extend .page-link;
+  padding: 4px;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
