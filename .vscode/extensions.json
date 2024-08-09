@@ -2,6 +2,9 @@
   "recommendations": [
     "kargware.vscode-extension-jekyll-kw",
     "ginfuru.ginfuru-vscode-jekyll-syntax",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "groksrc.ruby",
+    "kaiwood.endwise",
+    "shopify.ruby-lsp"
   ]
 }
