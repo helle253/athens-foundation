@@ -90,63 +90,71 @@
   padding: $spacing-unit 0;
 }
 
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit * 0.5;
-}
-
 .contact-list,
 .social-media-list {
   list-style: none;
   margin-left: 0;
 }
 
-.footer-col-wrapper {
-  @include relative-font-size(0.9375);
+
+.footer-flex {
+  margin-left: $spacing-unit * 0.5;
   color: $grey-color;
-  margin-left: -$spacing-unit * 0.5;
+  @include relative-font-size(0.9375);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
   @extend %clearfix;
+
 }
 
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit * 0.5;
-  padding-left: $spacing-unit * 0.5;
+.footer-address {
+  display: flex;
+  flex-direction: row;
 }
 
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+.footer-street-address {
+  margin-right: 5px;
 }
 
-.footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+.footer-flex div, .footer-flex a {
+  flex: 1 1 auto;
 }
 
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+.footer-separator {
+  text-align: center;
 }
 
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
+.footer-email {
+  text-align: right
 }
+
+.footer-socials {
+  padding-top: 12px;
+  float: right;
+}
+
+.footer-social-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 
 @include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+  .footer-address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-street-address, .footer-city-state-zip {
+    display: block;
+  }
+
+  .footer-separator {
+    display: none;
   }
 }
 
