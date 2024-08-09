@@ -2,7 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact-us/
-navbar_order: 1
+navbar_order: 2
 ---
 
 Progress Athens Foundation, Inc.  
