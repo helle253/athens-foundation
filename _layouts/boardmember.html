@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-  {%- include head.html -%}
+<img src="/assets/images/about/boardmembers/{{page.image_name}}" alt_text={{page.name}} width=300 height=300 style="padding: 10px;" />
 
-  <body>
-
-    {%- include header.html -%}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <img src="/assets/images/about/boardmembers/{{page.image_name}}" alt_text={{page.name}} width=300 height=300 style="padding: 10px;" />
-
-        {{ content }}
-      </div>
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
-
-</html>
+{{ content }}
