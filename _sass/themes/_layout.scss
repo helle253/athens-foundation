@@ -265,4 +265,21 @@
 
 .board-member-list-item {
   padding: 12px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    padding-right: 12px;
+  }
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+
+    img {
+      padding-right: 0px;
+      padding-bottom: 12px;
+    }
+  }
 }
