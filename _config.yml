@@ -33,3 +33,7 @@ facebook_username: ProgressAthensFoundation
 
 plugins:
   - jekyll-seo-tag
+
+collections:
+  boardmembers:
+    output: true
