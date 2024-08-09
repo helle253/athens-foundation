@@ -5,7 +5,7 @@ permalink: /contact-us/
 order: 3
 ---
 
-Progress Athens Foundation, Inc.  
-P.O. Box 147  
-Athens, WI 54411  
+{{site.address_name}}  
+{{site.street_address}}  
+{{site.city}}, {{site.state}} {{site.zip_code}}  
 [{{ site.email }}](mailto: {{ site.email }})

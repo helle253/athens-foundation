@@ -28,6 +28,12 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://progressathens.org" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: ProgressAthensFoundation
 
+address_name: Progress Athens Foundation, Inc.
+street_address: P.O. Box 147
+city: Athens
+state: WI
+zip_code: 54411
+
 plugins:
   - jekyll-seo-tag
 
