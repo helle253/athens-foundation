@@ -241,13 +241,13 @@
 
 
 /**
- * Posts
+ * Pages
  */
-.post-header {
+.page-header {
   margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.page-title {
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1;
@@ -257,7 +257,7 @@
   }
 }
 
-.post-content {
+.page-content {
   margin-bottom: $spacing-unit;
 
   h2 {
