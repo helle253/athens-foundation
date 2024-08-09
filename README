@@ -1,0 +1,23 @@
+Powered by Jekyll
+
+## Jekyll installation
+
+Install ruby (for mac, )
+
+https://jekyllrb.com/docs/
+
+Assuming the jekyll prerequisites are installed, run the following command to install jekyll and bundler:
+
+```bash
+gem install jekyll bundler
+```
+
+## Local development
+
+To run the site locally, navigate to the root directory of the project and run the following command:
+
+```bash
+bundle exec jekyll serve
+```
+
+In your browser, navigate to `http://localhost:4000/` to view the site.
