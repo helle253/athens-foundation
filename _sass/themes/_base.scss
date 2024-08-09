@@ -60,8 +60,6 @@ body {
   flex-direction: column;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -72,16 +70,12 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit * 0.5;
 }
 
-
-
 /**
  * `main` element
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
 }
-
-
 
 /**
  * Images
@@ -90,8 +84,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -103,8 +95,6 @@ figure > img {
 figcaption {
   font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -120,16 +110,12 @@ li {
   }
 }
 
-
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
-
-
 
 /**
  * Links
@@ -156,7 +142,6 @@ a {
   }
 }
 
-
 /**
  * Blockquotes
  */
@@ -172,8 +157,6 @@ blockquote {
     margin-bottom: 0;
   }
 }
-
-
 
 /**
  * Code formatting
@@ -201,8 +184,6 @@ pre {
   }
 }
 
-
-
 /**
  * Wrapper
  */
@@ -223,8 +204,6 @@ pre {
   }
 }
 
-
-
 /**
  * Clearfix
  */
@@ -233,8 +212,6 @@ pre {
   display: table;
   clear: both;
 }
-
-
 
 /**
  * Icons
@@ -256,8 +233,6 @@ pre {
     padding-top: 5px;
   }
 }
-
-
 
 /**
  * Tables
