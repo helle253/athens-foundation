@@ -97,16 +97,23 @@
 }
 
 
-.footer-flex {
+.footer-flex-outer {
   margin-left: $spacing-unit * 0.5;
   color: $grey-color;
   @include relative-font-size(0.9375);
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   @extend %clearfix;
+}
 
+.footer-flex-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-address {
