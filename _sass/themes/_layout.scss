@@ -103,20 +103,20 @@
 
 .footer-flex-outer {
   margin-left: $spacing-unit * 0.5;
+  margin-right: $spacing-unit * 0.5;
   @include relative-font-size(0.9375);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  @extend %clearfix;
 }
 
 .footer-flex-inner {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .footer-address {
@@ -130,16 +130,6 @@
 
 .footer-flex div, .footer-flex a {
   flex: 1 1 auto;
-}
-
-.footer-email {
-  text-align: right
-}
-
-.footer-socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .footer-social-link {

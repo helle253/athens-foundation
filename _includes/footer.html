@@ -38,11 +38,10 @@
           <span class="footer-street-address">{{site.street_address}}</span>
           <span class="footer-city-state-zip">{{site.city}}, {{site.state}} {{site.zip_code}}</span>
         </div>
-        <a class="footer-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </div>
       <div class='footer-socials'>
         {%- include social.html -%}
-      </div>
     </div>
   </div>
 </footer>
