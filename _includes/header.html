@@ -34,18 +34,8 @@
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     <nav class="site-nav">
-      {%- assign about_page_paths = site.about | sort: "order" | map: "path" -%}
-      <div class="dropdown">
-        <button class="dropdown-button">About</button>
-        <div class="dropdown-content">
-          <ul>
-            {% for path in about_page_paths %}
-              {%- assign about_page = site.about | where: "path", path | first -%}
-              <a href="{{ about_page.url | relative_url }}">{{ about_page.title | escape }}</a>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
+      {% include dropdown.html collection="about" title="About" %}
+      {% include dropdown.html collection="grants" title="Grants" %}
       {%- assign page_paths = site.pages | sort: "order" | map: "path" -%}
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}

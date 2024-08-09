@@ -1,0 +1,12 @@
+{%- assign page_paths = site[include.collection] | sort: "order" | map: "path" -%}
+<div class="dropdown">
+  <button class="dropdown-button">{{ include.title }}</button>
+  <div class="dropdown-content">
+    <ul>
+      {% for path in page_paths %}
+        {%- assign page = site[include.collection] | where: "path", path | first -%}
+        <a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
