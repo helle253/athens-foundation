@@ -17,24 +17,33 @@
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  padding: 4px;
   position: absolute;
-  background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: $blue-color;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
   z-index: 1;
 }
 
 .dropdown-content ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
+  justify-content: space-around;
   padding: 0;
   margin: 0;
-  margin-left: 4px;
-  margin-right: 8px;
 }
 
 .dropdown-content a {
-  @extend .page-link;
+  color: $white-color;
+  line-height: $base-line-height;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 4px;
+  padding-right: 8px;
   white-space: nowrap;
+
+  &:not(:first-child) {
+    border-top: 1px solid $grey-color-light;
+  }
 }
 
 /* Show the Dropdown Menu on Hover */
