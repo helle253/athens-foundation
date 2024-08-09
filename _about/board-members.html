@@ -41,11 +41,7 @@ order: 1
   {% for member in other_members -%}
     <div class="board-member-list-item">
       <img src="/assets/images/about/board-members/{{member.image_name}}" alt_text={{page.name}} width=300 aspect-ratio="1 / 1" padding="10px" />
-      <a href={{member.url}}>{{ member.name }}
-        {% if member.position %}
-          - {{ member.position }}
-        {% endif %}
-      </a>
+      <a href={{member.url}}>{{ member.name }}</a>
     </div>
   {% endfor %}
 </div>
