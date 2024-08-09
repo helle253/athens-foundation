@@ -1,7 +1,8 @@
 ---
 layout: board-member
-title: Kimberly Heller
+title: Kimberly Heller, Treasurer
 name: Kimberly Heller
+position: Treasurer
 image_name: kimberly-heller.jpg
 permalink: /about/board-members/kimberly-heller/
 ---

@@ -1,7 +1,8 @@
 ---
 layout: board-member
-title: Tom Peter
+title: Tom Peter, President
 name: Tom Peter
+position: President
 image_name: tom-peter.jpg
 permalink: /about/board-members/tom-peter/
 ---

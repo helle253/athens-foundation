@@ -1,7 +1,8 @@
 ---
 layout: board-member
-title: Sherri Nehrbass
+title: Sherri Nehrbass, Secretary
 name: Sherri Nehrbass
+position: Secretary
 image_name: sherri-nehrbass.jpg
 permalink: /about/board-members/sherri-nehrbass/
 ---

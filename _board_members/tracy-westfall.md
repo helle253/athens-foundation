@@ -1,7 +1,8 @@
 ---
 layout: board-member
-title: Tracy Westfall
+title: Tracy Westfall, Vice President
 name: Tracy Westfall
+position: Vice President
 image_name: tracy-westfall.jpg
 permalink: /about/board-members/tracy-westfall/
 ---
