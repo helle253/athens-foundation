@@ -2,7 +2,7 @@
 layout: board-member
 title: Sherri Nehrbass
 name: Sherri Nehrbass
-image_name: sherri-nehrbass.png
+image_name: sherri-nehrbass.jpg
 permalink: /about/board-members/sherri-nehrbass/
 ---
 

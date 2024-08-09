@@ -2,7 +2,7 @@
 layout: board-member
 title: Tom Mueller
 name: Tom Mueller
-image_name: tom-mueller.png
+image_name: tom-mueller.jpg
 permalink: /about/board-members/tom-mueller/
 ---
 

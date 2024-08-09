@@ -2,7 +2,7 @@
 layout: board-member
 title: Lorene Mueller
 name: Lorene Mueller
-image_name: lorene-mueller.png
+image_name: lorene-mueller.jpg
 permalink: /about/board-members/lorene-mueller/
 ---
 

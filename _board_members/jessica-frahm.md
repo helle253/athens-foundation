@@ -2,7 +2,7 @@
 layout: board-member
 title: Jessica Frahm
 name: Jessica Frahm
-image_name: jessica-frahm.png
+image_name: jessica-frahm.jpg
 permalink: /about/board-members/jessica-frahm/
 ---
 

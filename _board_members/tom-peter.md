@@ -2,7 +2,7 @@
 layout: board-member
 title: Tom Peter
 name: Tom Peter
-image_name: tom-peter.png
+image_name: tom-peter.jpg
 permalink: /about/board-members/tom-peter/
 ---
 

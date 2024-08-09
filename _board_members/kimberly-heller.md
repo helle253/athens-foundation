@@ -2,7 +2,7 @@
 layout: board-member
 title: Kimberly Heller
 name: Kimberly Heller
-image_name: kimberly-heller.png
+image_name: kimberly-heller.jpg
 permalink: /about/board-members/kimberly-heller/
 ---
 

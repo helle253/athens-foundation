@@ -2,7 +2,7 @@
 layout: board-member
 title: Tracy Westfall
 name: Tracy Westfall
-image_name: tracy-westfall.png
+image_name: tracy-westfall.jpg
 permalink: /about/board-members/tracy-westfall/
 ---
 
