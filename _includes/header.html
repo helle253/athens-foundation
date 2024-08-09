@@ -32,7 +32,7 @@
 
 <header class="site-header" role="banner">
   <div class="wrapper">
-    {%- assign page_paths = site.pages | sort: "navbar_order" | map: "path" -%}
+    {%- assign page_paths = site.pages | sort: "order" | map: "path" -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     {%- if page_paths -%}
       <nav class="site-nav">
