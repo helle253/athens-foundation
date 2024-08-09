@@ -5,7 +5,7 @@ permalink: /donate/
 order: 2
 ---
 
-Tax deductible contributions can be maile dto:
+Tax deductible contributions can be mailed to:
 
 Progress Athens Foundation, Inc.  
 {{site.street_address}}  
