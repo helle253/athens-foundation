@@ -36,3 +36,5 @@ collections:
     output: true
   boardmembers:
     output: true
+  grants:
+    output: true
