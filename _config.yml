@@ -40,7 +40,7 @@ plugins:
 collections:
   about:
     output: true
-  boardmembers:
+  board_members:
     output: true
   grants:
     output: true
