@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "kargware.vscode-extension-jekyll-kw",
-    "ginfuru.ginfuru-vscode-jekyll-syntax"
+    "ginfuru.ginfuru-vscode-jekyll-syntax",
+    "yzhang.markdown-all-in-one"
   ]
 }
