@@ -28,9 +28,6 @@ baseurl: "/athens-foundation" # the subpath of your site, e.g. /blog
 url: "https://progress-athens.org" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: ProgressAthensFoundation
 
-# Build settings
-# theme: minima
-
 plugins:
   - jekyll-seo-tag
 
