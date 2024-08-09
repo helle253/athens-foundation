@@ -5,4 +5,6 @@ permalink: /grants/recipients/
 order: 2
 ---
 
-TODO: provide list of grant recipients
+{% for recipient in site.recipients -%}
+  [{{ recipient.name }}]({{ recipient.url }})
+{%- endfor -%}

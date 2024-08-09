@@ -38,3 +38,5 @@ collections:
     output: true
   grants:
     output: true
+  recipients:
+    output: true
