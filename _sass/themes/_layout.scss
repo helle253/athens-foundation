@@ -85,8 +85,13 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  background-color: $blue-color;
   padding: $spacing-unit 0;
+  color: $white-color-dark;
+}
+
+.site-footer a {
+  color: $white-color;
 }
 
 .contact-list,
@@ -98,7 +103,6 @@
 
 .footer-flex-outer {
   margin-left: $spacing-unit * 0.5;
-  color: $grey-color;
   @include relative-font-size(0.9375);
   display: flex;
   flex-direction: row;
@@ -128,17 +132,14 @@
   flex: 1 1 auto;
 }
 
-.footer-separator {
-  text-align: center;
-}
-
 .footer-email {
   text-align: right
 }
 
 .footer-socials {
-  padding-top: 12px;
-  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-social-link {
@@ -157,10 +158,6 @@
 
   .footer-street-address, .footer-city-state-zip {
     display: block;
-  }
-
-  .footer-separator {
-    display: none;
   }
 }
 

@@ -50,6 +50,8 @@ $text-color:       $black-color !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
+$white-color-dark: darken($white-color, 15%) !default;
+
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
