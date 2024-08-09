@@ -6,4 +6,4 @@ layout: home
 
 # Welcome to Progress Athens Foundation
 
-This is some text that will show up on the home page.
+Progress Athens foundation is dedicated to improving the quality of life in Athens, Wisconsin. We are a non-profit organization that provides grants to local organizations and individuals to help them achieve their goals. We also provide resources and support to help our grantees succeed.
