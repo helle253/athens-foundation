@@ -14,11 +14,13 @@ order: 1
 {% assign secretary = site.board_members | where: "position", "Secretary" | first %}
 {% assign treasurer = site.board_members | where: "position", "Treasurer" | first %}
 
+
 {% assign other_members = site.board_members |
-   reject: "position", "President" |
-   reject: "position", "Vice President" |
-   reject: "position", "Secretary" |
-   reject: "position", "Treasurer"
+    where_exp: "member",
+      "member.position != 'President' and
+      member.position != 'Vice President' and
+      member.position != 'Secretary' and
+      member.position != 'Treasurer'"
 %}
 
 <h1>Our Board</h1>
