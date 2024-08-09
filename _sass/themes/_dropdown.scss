@@ -7,7 +7,8 @@
 }
 
 .dropdown-button {
-  padding: 20px;
+  @extend .page-link;
+  font-size: 16px;
   font-size: 16px;
   border: none;
   background-color: white;
