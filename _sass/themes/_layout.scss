@@ -1,3 +1,7 @@
+
+@use "sass:math";
+
+
 /**
  * This code is derived from the project "minima"
  * which is licensed under the MIT License.
@@ -40,6 +44,33 @@
   position: relative;
 }
 
+.logo-container {
+  aspect-ratio: 1 / 1;
+  width: 10%;
+  background-color: $white-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  margin-left: 24px;
+  margin-right:24px;
+
+  img {
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+  }
+
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
 .site-title {
   @include relative-font-size(1.625);
   color: $white-color;
@@ -53,6 +84,7 @@
     color: $white-color;
   }
 }
+
 
 .site-nav {
   float: right;

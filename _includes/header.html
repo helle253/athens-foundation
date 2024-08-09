@@ -32,6 +32,9 @@
 
 <header class="site-header" role="banner">
   <div class="wrapper">
+    <div class='logo-container'>
+      <img src='/assets/images/logo.png' alt='{{ site.title }}'>
+    </div>
     <nav class="site-nav">
       <a class="page-link" rel="author" href="{{ "/" | relative_url }}">Home</a>
       {% include dropdown.html collection="about" title="About" %}
