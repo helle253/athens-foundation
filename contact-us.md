@@ -8,4 +8,4 @@ order: 3
 {{site.address_name}}  
 {{site.street_address}}  
 {{site.city}}, {{site.state}} {{site.zip_code}}  
-[{{ site.email }}](mailto: {{ site.email }})
+[{{ site.email }}](mailto:{{ site.email }})
