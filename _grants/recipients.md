@@ -10,4 +10,4 @@ Grant award listing coming soon.
 {% for recipient in site.recipients -%}
   [{{ recipient.name }}]({{ recipient.url }})
 {%- endfor -%}
->
+!-->
