@@ -21,9 +21,12 @@
 title: Progress Athens Foundation
 email: progressathens@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Progress Athens Foundation is dedicated to improving the quality of life in
+  Athens, Wisconsin and the surrounding area. We are a non-profit organization
+  that provides grants to local organizations and individuals to help them achieve
+  their goals.
+  Progress Athens Foundation, Inc.'s mission is to preserve and enhance the
+  Athens area for current and future generations.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://progressathens.org" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: ProgressAthensFoundation
