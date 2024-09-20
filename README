@@ -2,14 +2,18 @@ Powered by Jekyll
 
 ## Jekyll installation
 
-Install ruby (for mac, )
-
-https://jekyllrb.com/docs/
+[Jekyll Quickstart Docs](https://jekyllrb.com/docs/) lists the prerequisites for installing Jekyll for whatever OS you are using. Please refer to these documents to get started.
 
 Assuming the jekyll prerequisites are installed, run the following command to install jekyll and bundler:
 
-```bash
+```shell
 gem install jekyll bundler
+```
+
+Then, install the dependencies:
+
+```shell
+bundle install
 ```
 
 ## Local development
